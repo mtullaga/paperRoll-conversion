@@ -10,31 +10,38 @@
               <table >
                   <tr>
                     <td>Substance:</td>
-                    <td><input type="number" v-model="ReelWtCalcDimentionSubstance" style="margin-bottom: 7px;"> gsm</td>
+                    <td><input type="number" v-model="ReelWtCalcDimentionSubstance" style="margin-bottom: 7px;"></td>
+                    <td>gsm</td>
                   </tr>
                   <tr>
                     <td>Caliper:</td>
-                    <td><input type="number" v-model="ReelWtCalcDimentionCaliper" style="margin-bottom: 7px;"> mic</td>
+                    <td><input type="number" v-model="ReelWtCalcDimentionCaliper" style="margin-bottom: 7px;"></td>
+                    <td>mic</td>
                   </tr>
                   <tr>
                     <td>Width:</td>
-                    <td><input type="number" v-model="ReelWtCalcDimentionWidth" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcDimentionWidth" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td>Overall Diameter:</td>
-                    <td><input type="number" v-model="ReelWtCalcDimentionODiameter" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcDimentionODiameter" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td>Core Diameter (inside):</td>
-                    <td><input type="number" v-model="ReelWtCalcDimentionCDiameter" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcDimentionCDiameter" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td>Core Wall thickness:</td>
-                    <td><input type="number" v-model="ReelWtCalcDimentionCthick" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcDimentionCthick" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td><b>Net Weight</b></td>
-                    <td><input type="text" v-model="ReelWtCalcDimentionWeight" id="result" style="font-weight: bold;" readonly> kg</td>
+                    <td><input type="text" v-model="ReelWtCalcDimentionWeight" id="result" style="font-weight: bold;" readonly> </td>
+                    <td>kg</td>
                   </tr>
                   <tr>
                     <td colspan="2" style="font-size: 12px">

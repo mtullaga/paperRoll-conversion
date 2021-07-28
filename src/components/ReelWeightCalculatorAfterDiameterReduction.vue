@@ -14,20 +14,24 @@
                   </tr>
                   <tr>
                     <td>Net Weight:</td>
-                    <td><input type="number" v-model="ReelWtCalcAfterDiameterWeight" style="margin-bottom: 7px;"> kg</td>
+                    <td><input type="number" v-model="ReelWtCalcAfterDiameterWeight" style="margin-bottom: 7px;"></td>
+                    <td>kg</td>
                   </tr>
                   <tr>
                     <td>Width:</td>
-                    <td><input type="number" v-model="ReelWtCalcAfterDiameterWidth" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcAfterDiameterWidth" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td>Overall Diameter:</td>
-                    <td><input type="number" v-model="ReelWtCalcAfterDiameterODiameter" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcAfterDiameterODiameter" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
 
                   <tr>
                     <td>Core Diameter (inside): </td>
-                    <td><input type="number" v-model="ReelWtCalcAfterDiameterCDiameter" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcAfterDiameterCDiameter" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                  <tr>
                       <td><i>NEW REEL DETAILS</i></td>
@@ -37,12 +41,14 @@
                     <td>
                         Core Wall Thickness:
                     </td>
-                    <td><input type="number" v-model="ReelWtCalcAfterDiameterDiameter" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelWtCalcAfterDiameterDiameter" style="margin-bottom: 7px;"> </td>
+                    <td>mm</td>
                   </tr>
 
                   <tr>
                     <td><b>Diameter: </b></td>
-                    <td><input type="text" v-model="ReelWtCalcAfterDiameterNWeight" id="result" style="font-weight: bold;" readonly> kg</td>
+                    <td><input type="text" v-model="ReelWtCalcAfterDiameterNWeight" id="result" style="font-weight: bold;" readonly></td>
+                    <td>kg</td>
                   </tr>
                   <tr>
                     <td colspan="2" style="font-size: 12px">

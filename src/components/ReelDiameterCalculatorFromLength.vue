@@ -10,25 +10,30 @@
               <table >
                   <tr>
                     <td>Meterage:</td>
-                    <td><input type="number" v-model="ReelCalculatorMeterage" style="margin-bottom: 7px;"> m</td>
+                    <td><input type="number" v-model="ReelCalculatorMeterage" style="margin-bottom: 7px;"></td>
+                    <td>m</td>
                   </tr>
                   <tr>
                     <td>Caliper:</td>
-                    <td><input type="number" v-model="ReelCalculatorCaliper" style="margin-bottom: 7px;"> mic</td>
+                    <td><input type="number" v-model="ReelCalculatorCaliper" style="margin-bottom: 7px;"></td>
+                    <td>mic</td>
                   </tr>
                   <tr>
                     <td>Core Diameter (inside):</td>
-                    <td><input type="number" v-model="ReelCalculatorCore" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelCalculatorCore" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
 
                   <tr>
                     <td>Core Wall Thickness:</td>
-                    <td><input type="number" v-model="ReelCalculatorCoreWall" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelCalculatorCoreWall" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
 
                   <tr>
                     <td><b>Diameter: </b></td>
-                    <td><input type="text" v-model="ReelCalculatorDiameter" id="result" style="font-weight: bold;" readonly> mm</td>
+                    <td><input type="text" v-model="ReelCalculatorDiameter" id="result" style="font-weight: bold;" readonly></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td colspan="2" style="font-size: 12px">

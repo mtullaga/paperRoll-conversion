@@ -10,20 +10,24 @@
               <table >
                   <tr>
                     <td>Net Weight:</td>
-                    <td><input type="number" v-model="ReelLenCalcWeightWt" style="margin-bottom: 7px;"> kg</td>
+                    <td><input type="number" v-model="ReelLenCalcWeightWt" style="margin-bottom: 7px;"></td>
+                    <td>kg</td>
                   </tr>
                   <tr>
                     <td>Width:</td>
-                    <td><input type="number" v-model="ReelLenCalcWeightWidth" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="ReelLenCalcWeightWidth" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td>Substance:</td>
-                    <td><input type="number" v-model="ReelLenCalcWeightSubstance" style="margin-bottom: 7px;"> gsm</td>
+                    <td><input type="number" v-model="ReelLenCalcWeightSubstance" style="margin-bottom: 7px;"></td>
+                    <td>gsm</td>
                   </tr>
 
                   <tr>
-                    <td><b>Linear Metres</b></td>
-                    <td><input type="text" v-model="ReelLenCalcWeightLinearM" id="result" style="font-weight: bold;" readonly> metres</td>
+                    <td><b>Linear Metres: </b></td>
+                    <td><input type="text" v-model="ReelLenCalcWeightLinearM" id="result" style="font-weight: bold;" readonly></td>
+                    <td>metres</td>
                   </tr>
                   <tr>
                     <td colspan="2" style="font-size: 12px">

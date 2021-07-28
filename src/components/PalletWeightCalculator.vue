@@ -10,24 +10,29 @@
               <table >
                   <tr>
                     <td>Number of Sheets:</td>
-                    <td><input type="number" v-model="PalletNoSheet" style="margin-bottom: 7px;"> pcs</td>
+                    <td><input type="number" v-model="PalletNoSheet" style="margin-bottom: 7px;"></td>
+                    <td>pcs</td>
                   </tr>
                   <tr>
                     <td>Sheet Width:</td>
-                    <td><input type="number" v-model="PalletWidth" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="PalletWidth" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td>Sheet Length:</td>
-                    <td><input type="number" v-model="PalletLength" style="margin-bottom: 7px;"> mm</td>
+                    <td><input type="number" v-model="PalletLength" style="margin-bottom: 7px;"></td>
+                    <td>mm</td>
                   </tr>
                   <tr>
                     <td>Substance: </td>
-                    <td><input type="number" v-model="PalletSubstance" style="margin-bottom: 7px;"> gsm</td>
+                    <td><input type="number" v-model="PalletSubstance" style="margin-bottom: 7px;"></td>
+                    <td>gsm</td>
                   </tr>
                   
                   <tr>
                     <td><b>Weight of Board on Pallet</b></td>
-                    <td><input type="text" v-model="PalletWtBoard" id="result" style="font-weight: bold;" readonly> kg</td>
+                    <td><input type="text" v-model="PalletWtBoard" id="result" style="font-weight: bold;" readonly></td>
+                    <td>kg</td>
                   </tr>
                   
                   <tr>
