@@ -5,20 +5,20 @@
           <div class="form-group">
             <label class="float-left" style="margin-left: 0px"><b>Select Conversion</b></label>
             <select class="form-control" v-model="selectConversion" 
-            @change="changeSelection($event)" style="font-weight: bold">
+            @change="changeSelection($event)" style="">
 
               <option value="0">All</option>
-              <option value="1">Pallet Weight Calculator</option>
+              <option value="1">Reel Weight Calculator From Dimension</option>
               <option value="2">Reel Length Calculator From Dimension</option>
               <option value="3">Reel Length Calculator From Weight</option>
               <option value="4">Reel Diameter Calculator From Length</option>
-              <option value="5">Reel Weight Calculator From Dimension</option>
+              <option value="5">Pallet Weight Calculator</option>
               <option value="6">Reel Weight Calculator After Diameter Reduction</option>
             </select>
           </div>
         </b-col>
 
-        <PalletWeightCalculator v-if="selectConversion == 1 || selectConversion == 0"/>
+        <ReelWeightCalculatorFromDimension v-if="selectConversion == 1 || selectConversion == 0"/>
 
         <ReelLengthCalculatorFromDimension v-if="selectConversion == 2 || selectConversion == 0"/>
 
@@ -26,7 +26,7 @@
 
         <ReelDiameterCalculatorFromLength v-if="selectConversion == 4 || selectConversion == 0"/>
 
-        <ReelWeightCalculatorFromDimension v-if="selectConversion == 5 || selectConversion == 0"/>
+        <PalletWeightCalculator v-if="selectConversion == 5 || selectConversion == 0"/>
 
         <ReelWeightCalculatorAfterDiameterReduction v-if="selectConversion == 6 || selectConversion == 0"/>
 
