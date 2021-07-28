@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('fonts/Poppins/Poppins-Light.ttf') format('embedded-opentype'),
+      /* Internet Explorer */
+      url('fonts/Poppins/Poppins-Light.ttf') format('woff2'),
+      /* Super Modern Browsers */
+      url('fonts/Poppins/Poppins-Light.ttf') format('woff'),
+      /* Pretty Modern Browsers */
+      url('fonts/Poppins/Poppins-Light.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('fonts/Poppins/Poppins-Light.ttf') format('svg');
+    /* Legacy iOS */
+  }
+
+  body{
+      font-family: Poppins;
+  }
